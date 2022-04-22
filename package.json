@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "serverApi": "json-server --watch ./jsonServer/db.json --port 3004"
   },
   "private": true,
   "dependencies": {
